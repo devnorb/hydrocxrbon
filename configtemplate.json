@@ -2,4 +2,5 @@
   "openAIAccessToken": "yourOpenAIAccessTokenHere",
   "logsWebhook": "yourDiscordWebhookHere",
   "authKey": "norbiscool.dscaccgen"
+  "discordServerURL": "yourDiscordServerURLHere",
 }
