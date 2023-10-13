@@ -1,7 +1,7 @@
 {
   "openAIAccessToken": "",
   "logsWebhook": "",
-  "tokenWebhook": ""
+  "tokenWebhook": "",
   "discordServerURL": "",
   "authKey": "beta.release"
 }
