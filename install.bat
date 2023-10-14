@@ -12,9 +12,9 @@ if %errorlevel% neq 0 (
     echo hydrocxrbon generator install script by norb_
     echo Downloading current release...
 
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/release.js' -OutFile 'source.js'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/index.js' -OutFile 'index.js'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/configtemplate.json' -OutFile 'config.json'"
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/release.js' -OutFile 'source.js'"
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/index.js' -OutFile 'index.js'"
+    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/configtemplate.json' -OutFile 'config.json'"
 
     echo Installing dependencies (may take a while)
 
