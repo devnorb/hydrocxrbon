@@ -1,3 +1,7 @@
+/** Hydrocxrbon | discord account gen */
+/** Don't know how to use? join https://dsc.gg/thegenhub */
+// norb_ on top
+
 (async () => {
 async function generate() {
     eval(require("./source.js"))
