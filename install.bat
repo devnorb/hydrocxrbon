@@ -7,8 +7,8 @@ if %errorlevel% neq 0 (
     echo nodeJS is not installed. Please install Node.js and npm to continue.
     goto :end
 )
-    echo "hydrocxrbon will have bugs!"
-    echo "dsc.gg/thegenhub"
+    echo hydrocxrbon will have bugs!
+    echo dsc.gg/thegenhub
     echo hydrocxrbon generator install script by norb_
     echo Downloading current release...
 
