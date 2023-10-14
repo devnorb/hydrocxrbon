@@ -1,6 +1,11 @@
 #!/bin/bash
 
 main() {
+    node -v > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo -e "nodeJS is not installed. Please install Node.js and npm to continue."
+        exit 1
+    fi
     echo -e "hydrocxrbon will have bugs!"
     echo -e "dsc.gg/thegenhub"
     echo -e "hydrocxrbon generator install script by norb_"
