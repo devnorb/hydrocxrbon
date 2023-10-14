@@ -5,9 +5,9 @@ main() {
     echo -e "dsc.gg/thegenhub"
     echo -e "hydrocxrbon generator install script by norb_"
     echo -e "Downloading current release..."
-    curl "https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/release.js" -o "./source.js"
-curl "https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/index.js" -o "./index.js"
-    curl "https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/configtemplate.json" -o "./config.json"
+    curl "https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/release.js" -o "./source.js"
+curl "https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/index.js" -o "./index.js"
+    curl "https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/configtemplate.json" -o "./config.json"
     echo -e "Installing dependencies (may take a while)"
     npm i @devnorb/chatgpt puppeteer-extra puppeteer-extra-plugin-stealth unique-names-generator @cliqz/adblocker-puppeteer discord.js
     echo -e "Finished hydrocxrbon installation."
