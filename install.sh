@@ -1,7 +1,8 @@
 #!/bin/bash
 
 main() {
-    echo -e "This IS A BETA RELEASE of hydrocxrbon! Join dsc.gg/thegenhub for more information."
+    echo -e "hydrocxrbon will have bugs!"
+    echo -e "dsc.gg/thegenhub"
     echo -e "hydrocxrbon generator install script by norb_"
     echo -e "Downloading current release..."
     curl "https://raw.githubusercontent.com/devnorb/discordAccountGenerator/main/release.js" -o "./source.js"
