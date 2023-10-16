@@ -11,16 +11,17 @@ if %errorlevel% neq 0 (
     echo dsc.gg/thegenhub
     echo hydrocxrbon generator install script by norb_
     echo Downloading current release...
+    echo hydrocxrbon is being developed. | try again later.
+    goto :end
+rem    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/release.js' -OutFile 'source.js'"
+rem    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/index.js' -OutFile 'index.js'"
+rem    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/configtemplate.json' -OutFile 'config.json'"
 
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/release.js' -OutFile 'source.js'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/index.js' -OutFile 'index.js'"
-    powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/configtemplate.json' -OutFile 'config.json'"
+rem    echo Installing dependencies (may take a while)
 
-    echo Installing dependencies (may take a while)
-
-    call npm.cmd i @devnorb/chatgpt puppeteer-extra puppeteer-extra-plugin-stealth unique-names-generator @cliqz/adblocker-puppeteer discord.js
-    echo Finished hydrocxrbon installation.
-    echo norb_ on top - join dsc.gg/thegenhub
+rem    call npm.cmd i @devnorb/chatgpt puppeteer-extra puppeteer-extra-plugin-stealth unique-names-generator @cliqz/adblocker-puppeteer discord.js
+rem    echo Finished hydrocxrbon installation.
+rem    echo norb_ on top - join dsc.gg/thegenhub
 endlocal
 :end
 cmd /k
