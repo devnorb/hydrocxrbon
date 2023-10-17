@@ -15,6 +15,7 @@ if %errorlevel% neq 0 (
     echo Downloading current release...
     powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/main.js' -OutFile 'main.js'"
     powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devnorb/hydrocxrbon/main/configtemplate.json' -OutFile 'config.json'"
+    mkdir "screenshotLogs"
     echo Installing dependencies (may take a while)
     call npm.cmd i @devnorb/chatgpt puppeteer-extra puppeteer-extra-plugin-stealth unique-names-generator @cliqz/adblocker-puppeteer discord.js
     echo Finished hydrocxrbon installation.
