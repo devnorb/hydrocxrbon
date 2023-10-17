@@ -3,5 +3,6 @@
   "logsWebhook": "",
   "tokenWebhook": "",
   "discordServerURL": "",
+  "proxy": "none",
   "authKey": "beta.release"
 }
